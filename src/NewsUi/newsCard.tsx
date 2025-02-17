@@ -1,4 +1,5 @@
 import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 const NewCardSlider = () => {
@@ -39,8 +40,9 @@ const NewCardSlider = () => {
         </div>
         {/* bottom part  */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-2 lg:gap-10 ">
+          {/* left part start here  */}
           <div className="col-span-5">
-            <div className="w-full 2xl:max-h-[800px] h-full relative">
+            <div className="w-full h-[550px]  relative">
               <div className="absolute top-2 left-2 bg-white text-black px-2 text-xs capitalize py-1 rounded-full z-10">
                 Fashion
               </div>
@@ -52,15 +54,106 @@ const NewCardSlider = () => {
                 width={1000}
                 height={1000}
                 quality={100}
-                className="w-full 2xl:h-[500px] object-cover absolute "
+                className="w-full 2xl:h-[550px] object-cover absolute "
               />
+              <button>
+                <div className="absolute bottom-10 h-[70px] left-0 right-0 bg-gray-900/50 border w-full max-w-sm text-black px-2 text-xs capitalize py-1 rounded mx-auto flex items-center  justify-between z-10">
+                  <h2 className="text-white text-2xl">Explore More</h2>
+                  <div className="w-10 h-10 rounded bg-white flex items-center justify-center">
+                    <ArrowRight />
+                  </div>
+                </div>
+              </button>
             </div>
           </div>
+          {/* left part end here  */}
           <div className="col-span-7">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, nisi
-            excepturi, exercitationem perspiciatis nam possimus iste totam
-            asperiores natus dicta amet voluptatem corrupti pariatur temporibus,
-            laudantium illo odio architecto eligendi.
+            <div className="flex flex-col gap-7">
+              {/* card 1 */}
+              <div className="flex items-start gap-5">
+                <Image
+                  src="https://images.unsplash.com/photo-1622398925373-3f91b1e275f5?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  className="w-full h-full object-cover max-h-32 max-w-44"
+                />
+                <div className="flex flex-col gap-2">
+                  <h3 className="text-2xl lg:text-3xl font-semibold">
+                    The future of virtual reality—a
+                  </h3>
+                  <p className="text-sm">
+                    {`Virtual reality (VR) is a transformative medium that promises
+                    to revolutionize the way we interact with the world around us. In
+                    this project,`}
+                  </p>
+                </div>
+              </div>
+              {/* card 1 */}
+              {/* card 1 */}
+              <div className="flex items-start gap-5">
+                <Image
+                  src="https://images.unsplash.com/photo-1511424323602-d3c1a4138056?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  className="w-full h-full object-cover max-h-32 max-w-44"
+                />
+                <div className="flex flex-col gap-2">
+                  <h3 className="text-2xl lg:text-3xl font-semibold">
+                    Next to the Model
+                  </h3>
+                  <p className="text-sm">
+                    {`Virtual reality (VR) is a transformative medium that promises
+                    to revolutionize the way we interact with the world around us. In
+                    this project,`}
+                  </p>
+                </div>
+              </div>
+              {/* card 1 */}
+              {/* card 1 */}
+              <div className="flex items-start gap-5">
+                <Image
+                  src="https://images.unsplash.com/photo-1635715056175-328d91e9bb2e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  className="w-full h-full object-cover max-h-32 max-w-44"
+                />
+                <div className="flex flex-col gap-2">
+                  <h3 className="text-2xl lg:text-3xl font-semibold">
+                    The future of virtual reality—a
+                  </h3>
+                  <p className="text-sm">
+                    {`Virtual reality (VR) is a transformative medium that promises
+                    to revolutionize the way we interact with the world around us. In
+                    this project,`}
+                  </p>
+                </div>
+              </div>
+              {/* card 1 */}
+              {/* card 1 */}
+              <div className="flex items-start gap-5">
+                <Image
+                  src="https://images.unsplash.com/photo-1563203369-26f2e4a5ccf7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  className="w-full h-full object-cover max-h-32 max-w-44"
+                />
+                <div className="flex flex-col gap-2">
+                  <h3 className="text-2xl lg:text-3xl font-semibold">
+                    The future of virtual reality—a
+                  </h3>
+                  <p className="text-sm">
+                    {`Virtual reality (VR) is a transformative medium that promises
+                    to revolutionize the way we interact with the world around us. In
+                    this project,`}
+                  </p>
+                </div>
+              </div>
+              {/* card 1 */}
+            </div>
           </div>
         </div>
         {/* bottom part end here  */}

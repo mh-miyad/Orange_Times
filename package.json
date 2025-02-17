@@ -11,12 +11,6 @@
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@headlessui/react": "^2.2.0",
-    "@mantine/carousel": "^7.16.3",
-    "@mantine/core": "^7.16.3",
-    "@mantine/dropzone": "^7.16.3",
-    "@mantine/hooks": "^7.16.3",
-    "@mantine/modals": "^7.16.3",
-    "@mantine/spotlight": "^7.16.3",
     "@radix-ui/react-accordion": "^1.2.3",
     "@radix-ui/react-aspect-ratio": "^1.1.2",
     "@radix-ui/react-avatar": "^1.1.3",
